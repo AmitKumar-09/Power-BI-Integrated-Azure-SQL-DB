@@ -240,7 +240,7 @@ Some examples:
 - `&copy;` &copy;
 - `&rarr;` &rarr;
 
-[valid HTML entities]:(https://html.spec.whatwg.org/multipage/entities.json)
+[valid HTML entities](https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/edit/master/html_entities.json)
 
 
 
