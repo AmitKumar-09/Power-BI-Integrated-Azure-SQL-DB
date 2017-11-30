@@ -33,22 +33,22 @@ at the end of the line
 Links
 -----
 
-- You can insert links in text like [this](/tutorial.md)
+- You can insert links in text like [this](/demo.md)
 
-- You may add a [title](http://agea.github.io/tutorial.md "Markdown Tutorial") to your link (can you see the tooltip?)
+- You may add a [title](https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/blob/master/demo.md "Markdown Tutorial") to your link (can you see the tooltip?)
 
 - If your link contains spaces you have to write the [link](<http://example.com/a space>) between `<>`
 
-- You can use spaces and markup inside the [link **text**](http://agea.github.io/tutorial.md)
+- You can use spaces and markup inside the [link **text**](https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/blob/master/demo.md)
 
-- Long links may decrease source readability, so it's posible to define all links somewhere in the document (the end is a good place) and just reference the [link][tutorial.md], you may also collapse the reference if it matches the link text (example:  [tutorial.md][])
+- Long links may decrease source readability, so it's posible to define all links somewhere in the document (the end is a good place) and just reference the [link][demo.md], you may also collapse the reference if it matches the link text (example:  [demo.md][])
 
-- You may also write directly the link: <http://agea.github.io/tutorial.md>
+- You may also write directly the link: <https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/blob/master/demo.md>
 
 - It will work also for email addresses: <email@example.com> (you may write vaild email links also using [mailto](mailto:email@example.com) as protocol)
 
 
-[tutorial.md]: http://agea.github.io/tutorial.md
+[demo.md]: https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/blob/master/demo.md
 
 
 
