@@ -167,7 +167,7 @@ or three (or more) `-`
 
 but you have to be careful as it is similar to the header syntax, so if you write `---` immediatly after a single line of text you get an header, either you have to leave a blank line before the `---`, or you put it after multiple lines of text
 
-![](demo/horozontal_rules.png)
+![](demo/horizontal_rules.png)
 
 
 
