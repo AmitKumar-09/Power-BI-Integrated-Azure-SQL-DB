@@ -5,6 +5,8 @@ Markdown is a markup language designed to be simple enough to let anyone write s
 
 I **strongly** encourage you to change the source of the various parts to see what happens (the output will change as you type)
 
+![](demo/introduction.png)
+
 
 Basic styles
 ------------
@@ -29,6 +31,8 @@ You may force a line break with two spaces
 or with a `\`\
 at the end of the line
 
+![](demo/basic_styles.png)
+
 
 Links
 -----
@@ -50,6 +54,8 @@ Links
 
 [demo.md]: https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/blob/master/demo.md
 
+![](demo/links.png)
+
 
 
 Images
@@ -64,6 +70,8 @@ Syntax for images is like the syntax for links, but with a `!` before:
 ![ref]
 
 [ref]: demo/c.png
+
+![](demo/images.png)
 
 
 
@@ -110,9 +118,11 @@ You can insert any block inside a list, you have to respect the indentation of t
       
   - ### or headers
   
+  ![](demo/lists.png)
   
   
-  Headers
+  
+Headers
 -------
 
 There are two ways to define headers:
