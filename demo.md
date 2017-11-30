@@ -31,7 +31,7 @@ You may force a line break with two spaces
 or with a `\`\
 at the end of the line
 
-![](demo/basic_styles.png)
+<kbd>![](demo/basic_styles.png)</kbd>
 
 
 Links
@@ -54,7 +54,7 @@ Links
 
 [demo.md]: https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/blob/master/demo.md
 
-![](demo/links.png)
+<kbd>![](demo/links.png)</kbd>
 
 
 
@@ -71,7 +71,7 @@ Syntax for images is like the syntax for links, but with a `!` before:
 
 [ref]: demo/c.png
 
-![](demo/images.png)
+<kbd>![](demo/images.png)</kbd>
 
 
 
@@ -118,7 +118,7 @@ You can insert any block inside a list, you have to respect the indentation of t
       
   - ### or headers
   
-  ![](demo/lists.png)
+  <kbd>![](demo/lists.png)</kbd>
   
   
   
@@ -149,7 +149,7 @@ A sub heading
 
 The good thing is that many tools that convert Markdown in HTML or PDF are able to generate the index of your document, or links to the headers automatically (like Github does on the [source](https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/edit/master/headers) of Markdown files)
 
-![](demo/headers.png)
+<kbd>![](demo/headers.png)</kbd>
 
 
 
@@ -167,7 +167,7 @@ or three (or more) `-`
 
 but you have to be careful as it is similar to the header syntax, so if you write `---` immediatly after a single line of text you get an header, either you have to leave a blank line before the `---`, or you put it after multiple lines of text
 
-![](demo/horizontal_rules.png)
+<kbd>![](demo/horizontal_rules.png)</kbd>
 
 
 
@@ -192,7 +192,7 @@ If you have to insert code in your document you have tree choiches:
 
 You need to leave a blank linke after a paragraph and 2 blank lines after a list to start an indented code block (if you want the code to be out of the list), and you may insert the name of the language immediatly after the opening code fence (so some renderers may be able to highlight the syntax of the language)
 
-![](demo/source_code.png)
+<kbd>![](demo/source_code.png)</kbd>
 
 
 
@@ -222,7 +222,7 @@ This is the list of allowed html tags (case insensitive):
 
 `article`, `header`, `aside`, `hgroup`, `blockquote`, `hr`, `iframe`, `body`, `li`, `map`, `button`, `object`, `canvas`, `ol`,`caption`, `output`, `col`, `p`, `colgroup`, `pre`, `dd`, `progress`, `div`, `section`, `dl`,`table`, `td`, `dt`, `tbody`, `embed`,`textarea`, `fieldset`, `tfoot`, `figcaption`, `th`, `figure`, `thead`, `footer`, `tr`, `form`, `ul`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `video`, `script`, `style`
 
-![](demo/blockquotes.png)
+<kbd>![](demo/blockquotes.png)</kbd>
 
 
 
@@ -242,7 +242,7 @@ Some examples:
 
 [valid HTML entities](https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/edit/master/html_entities.json)
 
-![](demo/entities.png)
+<kbd>![](demo/entities.png)</kbd>
 
 
 
@@ -272,5 +272,5 @@ If you have to write something that would result in a Markdown vaild syntax, you
 You may also escape the backslash itself \\*like this*
 
 
-![](demo/escaping.png)
+<kbd>![](demo/escaping.png)</kbd>
 
