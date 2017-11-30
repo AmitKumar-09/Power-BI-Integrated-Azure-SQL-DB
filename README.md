@@ -1,6 +1,11 @@
+<a name="home"></a>
+# Power-BI-Integrated-Azure-SQL-DB
+---
+[//]: # (This is a comment.)
+[//]: # (<a name="text"></a> this is used to go on text page included in name)
+[//]: # (Single # is userd for the largest heading)
+[//]: # (Three dashed are used for horrizontal line)
 
-Power-BI-Integrated-Azure-SQL-DB
-================================
 Azure SQL Server with DBs with data loaded and Power BI
 # Module 1: Getting Started
 **Lab Overview**
