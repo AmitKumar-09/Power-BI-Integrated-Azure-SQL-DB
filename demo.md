@@ -147,9 +147,9 @@ A sub heading
 
 ###### No, you can't go smaller than this
 
-The good thing is that many tools that convert Markdown in HTML or PDF are able to generate the index of your document, or links to the headers automatically (like Github does on the [source](http://git.io/vfz98) of Markdown files)
+The good thing is that many tools that convert Markdown in HTML or PDF are able to generate the index of your document, or links to the headers automatically (like Github does on the [source](https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/edit/master/headers) of Markdown files)
 
-
+![](demo/headers.png)
 
 
 
@@ -166,6 +166,8 @@ or three (or more) `-`
 ---
 
 but you have to be careful as it is similar to the header syntax, so if you write `---` immediatly after a single line of text you get an header, either you have to leave a blank line before the `---`, or you put it after multiple lines of text
+
+![](demo/horozontal_rules.png)
 
 
 
@@ -189,6 +191,8 @@ If you have to insert code in your document you have tree choiches:
     **world!**
 
 You need to leave a blank linke after a paragraph and 2 blank lines after a list to start an indented code block (if you want the code to be out of the list), and you may insert the name of the language immediatly after the opening code fence (so some renderers may be able to highlight the syntax of the language)
+
+![](demo/source_code.png)
 
 
 
@@ -217,6 +221,8 @@ While it may be useful when writing online content, please note that your tag ma
 This is the list of allowed html tags (case insensitive):
 
 `article`, `header`, `aside`, `hgroup`, `blockquote`, `hr`, `iframe`, `body`, `li`, `map`, `button`, `object`, `canvas`, `ol`,`caption`, `output`, `col`, `p`, `colgroup`, `pre`, `dd`, `progress`, `div`, `section`, `dl`,`table`, `td`, `dt`, `tbody`, `embed`,`textarea`, `fieldset`, `tfoot`, `figcaption`, `th`, `figure`, `thead`, `footer`, `tr`, `form`, `ul`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `video`, `script`, `style`
+
+![](demo/blockquotes.png)
 
 
 
