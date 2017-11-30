@@ -242,13 +242,16 @@ Some examples:
 
 [valid HTML entities](https://github.com/akn9050/Power-BI-Integrated-Azure-SQL-DB/edit/master/html_entities.json)
 
+![](demo/entities.png)
+
 
 
 
 Escaping
 --------
 
-If you have to write something that would result in a Markdown vaild syntax, you can escape the first character of your expression (you may also escape any other punctuation character) with a `\`
+If you have to write something that would result in a Markdown vaild syntax, you can escape the first character of your expression
+(you may also escape any other punctuation character) with a `\`
 
 \*not emphasized\*
 
@@ -267,4 +270,7 @@ If you have to write something that would result in a Markdown vaild syntax, you
 \[foo]: /url "not a reference"
 
 You may also escape the backslash itself \\*like this*
+
+
+![](demo/escaping.png)
 
