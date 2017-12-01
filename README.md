@@ -1,4 +1,4 @@
-<a name="home"></a>
+<a name="Power BI & Azure SQL DB"></a>
 # Power-BI-Integrated-Azure-SQL-DB
 ---
 [//]: # (This is a comment.)
@@ -6,9 +6,13 @@
 [//]: # (Single # is userd for the largest heading)
 [//]: # (Three dashed are used for horrizontal line)
 
+## Table of Contents
+- [Module 1: Getting Started](Module-1)
+ - [Lab Overview](Lab-Overview)
+## Table of Contents
 Azure SQL Server with DBs with data loaded and Power BI
-# Module 1: Getting Started
-**Lab Overview**
+## Module 1: Getting Started
+## Lab Overview
 
 This lab will take you through setting up the lab and verifying access.
 
