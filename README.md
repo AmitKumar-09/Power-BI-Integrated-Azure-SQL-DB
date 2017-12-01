@@ -8,6 +8,7 @@
 
 ## Table of Contents
 [Module 1: Getting Started](#Module1)
+
 - [Lab Overview](#Lab-Overview1)
 - [Prerequisites](#Prerequisites1)
 - [Time Estimate](#Time-Estimate)
