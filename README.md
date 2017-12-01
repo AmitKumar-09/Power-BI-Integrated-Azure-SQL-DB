@@ -45,11 +45,11 @@ This lab will take you through setting up the lab and verifying access.
 
 <kbd>![](images/lab_invitation.jpg "Lab Invitation")</kbd>
 
-- This will open a new web page, click on Lab.
+- This will open a new web page, click on **Lab**.
  
 <kbd>![](images/overview.jpg "Enter Lab")</kbd>
  
-- In this new page, Click on Launch lab.
+- In this new page, Click on **Launch lab**.
 
 <kbd>![](images/launch_lab.jpg "Launch lab")</kbd>
 
@@ -67,13 +67,13 @@ This lab will take you through setting up the lab and verifying access.
 <a name="Exercise1.1"></a>
 ### Exercise 1: Log into your Azure Portal ###
 In this exercise, you will log into the Azure Portal using your Azure credentials. 
-1.	Launch a browser and Navigate to https://portal.azure.com. Provide the credentials that you received via email. Click on Sign In.
+1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
 
 <kbd>![](images/signin.jpg "Credentials")</kbd>
    
 > **Note** : At the first login, you will have to change the password, if asked for.
 
-2.	Enter a new password. Then select Update password and sign in.
+2.	**Enter** a new **password**. Then select **Update password and sign in**.
 
 <kbd>![](images/update_password.jpg "Update Password")</kbd>
 
@@ -85,24 +85,24 @@ In this exercise, you will log into the Azure Portal using your Azure credential
  <a name="Exercise1.2"></a>
 ### Exercise 2: Verify Azure SQL Databases & Other resources in Portal ###
 In this Lab, you will verify SQL databases and other provisioned resources in Azure portal. 
-1.	Launch a browser and navigate to https://portal.azure.com. Login with your Microsoft Azure credentials. 
-2.	To toggle show/hide the Portal menu options with icon, Click on the Show Menu button. 
+1.	**Launch** a browser and **navigate** to https://portal.azure.com. **Login** with your Microsoft Azure credentials. 
+2.	To toggle **show/hide** the Portal menu options with icon, **Click** on the **Show Menu** button. 
  
 <kbd>![](images/show_menu.jpg "Show Menu")</kbd>
 
-3.	Click on the Resource groups icon in the Menu navigation bar. 
+3.	**Click** on the **Resource groups** icon in the **Menu navigation** bar. 
  
 <kbd>![](images/resource_groups.jpg "Resource Groups Icon")</kbd>
 
-4.	Click on the resource group in the Resource group blade 
+4.	**Click** on the **resource group** in the Resource group blade 
 
 <kbd>![](images/select_rg.jpg "Select Resource Group")</kbd>
 
-5.	In the blade that appears, click on Overview. 
+5.	In the blade that appears, click on **Overview**. 
   
 <kbd>![](images/rg_overview.jpg "RG Overview")</kbd>
 
-6.	Under the overview section, we can view the SQL database as below. 
+6.	Under the overview section, we can view the **SQL database** as below. 
 
 <kbd>![](images/azuresqldb.jpg "Check SQL DB")</kbd>
 
