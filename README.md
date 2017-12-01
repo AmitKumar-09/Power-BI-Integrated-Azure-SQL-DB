@@ -9,31 +9,33 @@
 ## Table of Contents
 
 - [Module 1: Getting Started](#Module1)
- - [Lab Overview](#Lab-Overview)
- - [Prerequisites](#Prerequisites)
- - [Time Estimate](#Time-Estimate) 
- - [Exercise 1: Log into your Azure Portal](#Exercise1) 
- - [Exercise 2: Verify Azure SQL Databases & Other resources in Portal](#Exercise2)
+  - [Lab Overview](#Lab-Overview1)
+  - [Prerequisites](#Prerequisites1)
+  - [Time Estimate](#Time-Estimate) 
+  - [Exercise 1: Log into your Azure Portal](#Exercise1.1) 
+  - [Exercise 2: Verify Azure SQL Databases & Other resources in Portal](#Exercise1.2)
 - [Module 2: Azure SQL Data Visualization with PowerBI](#Module2)
-Lab Overview	9 
-Exercise 1: Connect to Jump VM via RDP	10 
-Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s	14 
-Module 3: Exploring Azure SQL Database Capabilities	48 
-Lab Overview	48 
-Prerequisites	48 
-Exercise 1: Azure SQL Database Overview	48 
-Exercise 2: Database Monitoring	51 
-Exercise 3: Connect to azure SQL database via T-SQL in azure portal	58 
-Exercise 4: Creating Geo-Replication	61 
-Exercise 5: Azure AD Authentication	67 
-Exercise 6. Enabling Auditing and Threat Detection	70 
+  - [Lab Overview](#Lab-Owerview2)
+  - [Exercise 1: Connect to Jump VM via RDP](#Exercise2.1)
+  - [Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s](#Exercise2.2)
+- [Module 3: Exploring Azure SQL Database Capabilities](#Module3)
+  - [Lab Overview](#Lab-Overview3)
+  - [Prerequisites](#Prerequisites3)
+  - [Exercise 1: Azure SQL Database Overview](#Exercise3.1)
+  - [Exercise 2: Database Monitoring](#Exercise3.2)
+  - [Exercise 3: Connect to azure SQL database via T-SQL in azure portal](#Exercise3.3)
+  - [Exercise 4: Creating Geo-Replication](#Exercise3.4)
+  - [Exercise 5: Azure AD Authentication](#Exercise3.5)
+  - [Exercise 6. Enabling Auditing and Threat Detection](#Exercise3.6)
 
  
 <a name="Module1"></a>
 ## Module 1: Getting Started ##
-### Lab Overview 
-This lab will take you through setting up the lab and verifying access.  
-#### Prerequisites 
+<a name="Lab-Overview1"></a>
+### Lab Overview ###
+This lab will take you through setting up the lab and verifying access.
+<a name="Prerequisites1"></a>
+#### Prerequisites ###
 •	Windows or a Mac machine with HTML5 supported browser such as Microsoft Edge, Internet Explorer, Chrome or Firefox 
 •	On a Mac, if you haven’t set up Remote Desktop, please see this reference: https://docs.microsoft.com/en-us/windows-server/remote/remote-desktopservices/clients/remote-desktop-mac 
 •	You should have registered in the training portal https://experienceazurecloudqa.azurewebsites.net/#/odl/Power-BI-Conference-Lab/7c5bfb07-be19-4024-8278ea25b2eafe64. After registration, you’d have received an email link below. Click on Launch Lab to start the deployment. You should start the deployment only when you’re ready to execute exercise since this lab will auto- destroy after 2 hours. 
@@ -55,10 +57,11 @@ This lab will take you through setting up the lab and verifying access.
 •	You can use provided Azure credentials to login to Azure. You will also receive same credentials in lab invitation mail. Same credentials can be used to login to powerbi.com, PowerBI Pro license is already associated with his account. 
  
   
- 
-### Time Estimate 
-10 minutess 
-Exercise 1: Log into your Azure Portal 
+<a name="Time-Estimate"></a>
+### Time Estimate ###
+10 minutess
+<a name="Exercise1.1"></a>
+### Exercise 1: Log into your Azure Portal ###
 In this exercise, you will log into the Azure Portal using your Azure credentials. 
 1.	Launch a browser and Navigate to https://portal.azure.com. Provide the credentials that you received via email. Click on Sign In. 
   
@@ -69,8 +72,8 @@ Note : At the first login, you will have to change the password, if asked for.
  
   
  
- 
-Exercise 2: Verify Azure SQL Databases & Other resources in Portal 
+ <a name="Exercise1.2"></a>
+### Exercise 2: Verify Azure SQL Databases & Other resources in Portal ###
 In this Lab, you will verify SQL databases and other provisioned resources in Azure portal. 
 1.	Launch a browser and navigate to https://portal.azure.com. Login with your Microsoft Azure credentials. 
 2.	To toggle show/hide the Portal menu options with icon, Click on the Show Menu button. 
