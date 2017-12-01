@@ -39,7 +39,7 @@ This lab will take you through setting up the lab and verifying access.
 <a name="Prerequisites1"></a>
 #### Prerequisites ###
 -	Windows or a Mac machine with HTML5 supported browser such as Microsoft Edge, Internet Explorer, Chrome or Firefox.
--	On a Mac, if you haven’t set up Remote Desktop, please see this [reference.](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktopservices/clients/remote-desktop-mac)
+-	On a Mac, if you haven’t set up Remote Desktop, please see this [reference](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktopservices/clients/remote-desktop-mac).
 -	You should have registered in the training [portal](https://experienceazurecloudqa.azurewebsites.net/#/odl/Power-BI-Conference-Lab/7c5bfb07-be19-4024-8278ea25b2eafe64). After registration, you’d have received an email link below. Click on Launch Lab to start the deployment. You should start the deployment only when you’re ready to execute exercise since this lab will auto- destroy after 2 hours. 
 
 ![](images/lab_invitation.jpg "Lab Invitation")
