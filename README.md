@@ -33,6 +33,7 @@
  
 <a name="Module1"></a>
 ## Module 1: Getting Started ##
+----
 <a name="Lab-Overview1"></a>
 ### Lab Overview ###
 This lab will take you through setting up the lab and verifying access.
