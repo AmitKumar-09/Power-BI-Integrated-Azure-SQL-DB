@@ -121,29 +121,46 @@ Adventure works is a Cycle company and their Sales & Marketing team is intereste
 <a name="Exercise2.1"></a> 
 ### Exercise 1: Connect to Jump VM via RDP ###
 In this exercise, you will connect to the Jump VM, where you will find tools to perform load test on the Azure SQL DB. 
-1.	Click on the Resource groups icon in the Menu navigation bar. 
+1.	Click on the Resource groups icon in the Menu navigation bar.
+
+<kbd>![](images/resource_groups.jpg "Resource Group Icon")</kbd>
+
+2.	Click on the resource group in the Resource group blade.
+
+<kbd>![](images/select_rg.jpg "Select RG")</kbd>
   
-2.	Click on the resource group in the Resource group blade 
+1.	In the blade that appears, click on Overview.
+
+<kbd>![](images/rg_overview.jpg "RG Overview")</kbd>
   
-1.	In the blade that appears, click on Overview. 
-  
-2.	Under the overview section, click on virtual machine. 
+2.	Under the overview section, click on virtual machine.
+
+<kbd>![](images/demo_vm.jpg "Select VM")</kbd> 
  
- 
-3.	In the Virtual Machine blade , click on Overview. 
+3.	In the Virtual Machine blade , click on Overview.
+
+<kbd>![](images/vm_overview.jpg "VM Overview")</kbd>
   
-4.	Now click on Connect to work on the virtual machine. If you’re using Apple Mac, you can jump directly to Step-12. 
+4.	Now click on Connect to work on the virtual machine. If you’re using Apple Mac, you can jump directly to Step-12.
+
+<kbd>![](images/demo_vm_connect.jpg "Connect Button")</kbd>
  
 5.	On clicking on Connect, the rdp file automatically gets downloaded. Open the downloaded file.  
-6.	In the remote desktop window that pops up, Click on Connect. 
+6.	In the remote desktop window that pops up, Click on Connect.
+
+<kbd>![](images/rdp_connect.jpg "RDP Connect")</kbd>
  
-7.	Now, you will choose the different account and log in with your credentials that you received in mail. 
+7.	Now, you will choose the different account and log in with your credentials that you received in mail.
+
+<kbd>![](images/vm_credentials.jpg "Credentials")</kbd>  
  
-  
- 
-8.	Enter the Vm Username and Password that you received in the mail. 
- 
- 
+8.	Enter the Vm Username and Password that you received in the mail.
+
+<kbd>![](images/vm_username.jpg "VM Credentials")</kbd>
+
+9. Click on Yes in pop up window.
+
+<kbd>![](images/rdp_verification.jpg "verification")</kbd>
  
 10.	Now you are logged into your Virtual Machine 
 11.	If you’re using Mac, Copy the Jump VM DNS Name from the email you received. 
@@ -158,8 +175,8 @@ a.	Friendly name
 16.	Click Save. To start the connection, just double-click it. This should open remote session. Please accept certificate warning as required during the connectivity.  
 <a name="Exercise2.2"></a> 
 ### Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s ###
-Exercise Overview 
- In this lab, you will add Azure SQL database as data source via Power BI desktop client. 
+#### Exercise Overview ####
+In this lab, you will add Azure SQL database as data source via Power BI desktop client. 
 1.	Login with Jump VM via remote desktop. See Exercise 4 for more information. You do not need to do this if you’ve Power BI Desktop client available on your laptop. 
 2.	On Desktop, you should find Power BI Desktop icon. Double click to launch that. 
              
