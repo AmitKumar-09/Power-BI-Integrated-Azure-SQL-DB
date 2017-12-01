@@ -491,7 +491,7 @@ Login and Password: Credentials for new server
 10.	It will take few minutes for the databases to get in sync. 
  
 11.	See this for more information about how you can failover etc. 
-<a name="Exercise1.1"></a> 
+<a name="Exercise3.5"></a> 
 ### Exercise 5: Azure AD Authentication ###
 Exercise Overview 
  In this lab, you will enable Azure AD Authentication for SQL DB and connect to the db using automatic Azure AD Authentication. 
