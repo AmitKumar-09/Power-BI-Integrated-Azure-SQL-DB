@@ -2,7 +2,7 @@
 # Power BI Integrated & Azure SQL DB #
 ---
 [//]: # (This is a comment.)
-[//]: # (<a name="text"></a> this is used to go on text page included in name)
+[//]: # ([text(#text) when text is defined with this syntax it will go where this tag is degined <a name="text"></a> this is used togo) [//]: # (on text page included in name)
 [//]: # (Single # is userd for the largest heading)
 [//]: # (Three dashed are used for horrizontal line)
 
@@ -15,6 +15,7 @@
 - [Exercise 2: Verify Azure SQL Databases & Other resources in Portal](#Exercise1.2)
 
 [Module 2: Azure SQL Data Visualization with PowerBI](#Module2)
+
 - [Lab Overview](#Lab-Overview2)
 - [Exercise 1: Connect to Jump VM via RDP](#Exercise2.1)
 - [Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s](#Exercise2.2)
