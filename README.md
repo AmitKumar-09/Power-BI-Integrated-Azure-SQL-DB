@@ -8,7 +8,7 @@
 
 ## Table of Contents
 - [Module 1]:(Module-1) Getting Started
- - [Lab Overview](#Lab-Overview)
+ - [Lab Overview](Lab-Overview)
 ## Table of Contents
 Azure SQL Server with DBs with data loaded and Power BI
 ## Module 1: Getting Started
