@@ -44,15 +44,14 @@ This lab will take you through setting up the lab and verifying access.
 
 ![](images/lab_invitation.jpg "Lab Invitation")
 
-•	This will open a new web page, click on Lab 
+- This will open a new web page, click on Lab.
  
-  
+![](images/overview.jpg "Enter Lab")
  
-•	In this new page, Click on Launch lab. 
- 
-  
- 
- 
+•	In this new page, Click on Launch lab.
+
+![](images/launch_lab.jpg "Launch lab")
+
 •	This will start setting up the lab deployment. Note that this process will take 10 to 15 minutes. Once completed, you’d get an email with lab details and the portal should show the lab details. 
  
   
