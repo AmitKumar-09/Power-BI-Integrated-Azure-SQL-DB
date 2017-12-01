@@ -8,22 +8,13 @@
 
 ## Table of Contents
 
-- [Module 1]:(#Module-1) Getting Started
- - [Lab Overview](Lab-Overview)
-## Table of Contents
-Azure SQL Server with DBs with data loaded and Power BI
-## Module 1: Getting Started
-## Lab Overview
-
-Table of Contents
-
 - [Module 1: Getting Started](#Module1)
  - [Lab Overview](#Lab-Overview)
  - [Prerequisites](#Prerequisites)
  - [Time Estimate](#Time-Estimate) 
-Exercise 1: Log into your Azure Portal	6 
-Exercise 2: Verify Azure SQL Databases & Other resources in Portal	7 
-Module 2: Azure SQL Data Visualization with PowerBI	9 
+ - [Exercise 1: Log into your Azure Portal](#Exercise1) 
+ - [Exercise 2: Verify Azure SQL Databases & Other resources in Portal](#Exercise2)
+- [Module 2: Azure SQL Data Visualization with PowerBI](#Module2)
 Lab Overview	9 
 Exercise 1: Connect to Jump VM via RDP	10 
 Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s	14 
