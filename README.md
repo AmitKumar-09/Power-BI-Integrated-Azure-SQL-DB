@@ -48,15 +48,15 @@ This lab will take you through setting up the lab and verifying access.
  
 <kbd>![](images/overview.jpg "Enter Lab")</kbd>
  
-•	In this new page, Click on Launch lab.
+- In this new page, Click on Launch lab.
 
 <kbd>![](images/launch_lab.jpg "Launch lab")</kbd>
 
-•	This will start setting up the lab deployment. Note that this process will take 10 to 15 minutes. Once completed, you’d get an email with lab details and the portal should show the lab details. 
+- This will start setting up the lab deployment. Note that this process will take 10 to 15 minutes. Once completed, you’d get an email with lab details and the portal should show the lab details. 
  
 <kbd>![](images/lab_details.jpg "Lab Details")</kbd>
 
-•	You can use provided Azure credentials to login to Azure. You will also receive same credentials in lab invitation mail. Same credentials can be used to login to powerbi.com, PowerBI Pro license is already associated with his account. 
+- You can use provided Azure credentials to login to Azure. You will also receive same credentials in lab invitation mail. Same credentials can be used to login to powerbi.com, PowerBI Pro license is already associated with his account. 
 
 <kbd>![](images/credentials.jpg "Credentials")</kbd>
 
