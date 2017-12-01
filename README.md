@@ -88,15 +88,24 @@ In this Lab, you will verify SQL databases and other provisioned resources in Az
 1.	Launch a browser and navigate to https://portal.azure.com. Login with your Microsoft Azure credentials. 
 2.	To toggle show/hide the Portal menu options with icon, Click on the Show Menu button. 
  
-        
+<kbd>![](images/show_menu.jpg "Show Menu")</kbd>
+
 3.	Click on the Resource groups icon in the Menu navigation bar. 
  
-  
+<kbd>![](images/resource_groups.jpg "Resource Groups Icon")</kbd>
+
 4.	Click on the resource group in the Resource group blade 
- 
+
+<kbd>![](images/select_rg.jpg "Select Resource Group")</kbd>
+
 5.	In the blade that appears, click on Overview. 
   
+<kbd>![](images/rg_overview.jpg "RG Overview")</kbd>
+
 6.	Under the overview section, we can view the SQL database as below. 
+
+<kbd>![](images/azuresqldb.jpg "Check SQL DB")</kbd>
+
 <a name="Module2"></a> 
 ## Module 2: Azure SQL Data Visualization with PowerBI ##
 ----
