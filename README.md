@@ -14,6 +14,31 @@ Azure SQL Server with DBs with data loaded and Power BI
 ## Module 1: Getting Started
 ## Lab Overview
 
+- [Cognitive Services](#cognitive-services)  
+   - [Image Processing](#image-processing)  
+   - [Face Detection](#face-detection)  
+   - [Emotion Detection](#emotion-detection)  
+   - [Speech Recognition](#speech-recognition)  
+   - [Language](#language)  
+   - [Knowledge](#knowledge)  
+   - [Search](#search)  
+- [Building Bots](#building-bots)  
+   - [Bot Framework](#bot-framework)  
+   - [Azure Bot Service](#azure-bot-service)
+
+
+## Cognitive Services
+
+Effective cognitive computing requires easy-to-use service endpoints
+consumable by apps with images, audio, and other media and data that
+needs to be processed by sophisticated cognitive systems that return
+straightforward and usable results. Let your students get their hands on
+cognitive algorithms quickly using Microsoft’s Cognitive Services APIs.
+There are many entry points into the exploration of cognitive computing.
+
+### Image Processing
+
+
 This lab will take you through setting up the lab and verifying access.
 
 **Prerequisites**
