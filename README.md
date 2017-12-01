@@ -98,6 +98,7 @@ In this Lab, you will verify SQL databases and other provisioned resources in Az
 6.	Under the overview section, we can view the SQL database as below. 
 <a name="Module2"></a> 
 ## Module 2: Azure SQL Data Visualization with PowerBI ##
+----
 <a name="Lab-Overview2"></a> 
 ### Lab Overview ### 
 In this lab, you will connect Power BI Desktop to Azure SQL DB and prepare dashboards for Adventure works sales and marketing team.  
