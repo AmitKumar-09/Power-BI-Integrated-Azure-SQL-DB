@@ -6,10 +6,10 @@
 [//]: # (Single # is userd for the largest heading)
 [//]: # (Three dashed are used for horrizontal line)
 
-| Table of Contents |
-| -------------------|
-|- [Module 1: Getting Started](#Module1)|
-  - [Lab Overview](#Lab-Overview1)
+-| Table of Contents |
+-| -------------------|
+-| [Module 1: Getting Started](#Module1) |
+-| [Lab Overview](#Lab-Overview1) |
   - [Prerequisites](#Prerequisites1)
   - [Time Estimate](#Time-Estimate) 
   - [Exercise 1: Log into your Azure Portal](#Exercise1.1) 
