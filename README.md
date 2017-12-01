@@ -87,9 +87,10 @@ In this Lab, you will verify SQL databases and other provisioned resources in Az
 5.	In the blade that appears, click on Overview. 
   
 6.	Under the overview section, we can view the SQL database as below. 
- 
-Module 2: Azure SQL Data Visualization with PowerBI 
-Lab Overview 
+<a name="Module2"></a> 
+## Module 2: Azure SQL Data Visualization with PowerBI ##
+<a name="Lab-Overview2"></a> 
+### Lab Overview ### 
 In this lab, you will connect Power BI Desktop to Azure SQL DB and prepare dashboards for Adventure works sales and marketing team.  
 Please note Power BI Desktop is installed in Jump VM already, however you can also use your own computer which has Power BI desktop client installed to carry out labs in this module.  
 Adventure works is a Cycle company and their Sales & Marketing team is intrested in getting following analysis. 
@@ -97,8 +98,8 @@ Adventure works is a Cycle company and their Sales & Marketing team is intrested
 -	Marketing team is intrested in learning about the total revenue based on marketing type i.e sales reason. 
 In this module, we will setup dashboard for these requirement. If you’ve Power BI Desktop Client available in your laptop, you can use that to carry out these exercise or you can use Power BI desktop client installed on Jump VM. 
  
- 
-Exercise 1: Connect to Jump VM via RDP 
+<a name="Exercise2.1"></a> 
+### Exercise 1: Connect to Jump VM via RDP ###
 In this exercise, you will connect to the Jump VM, where you will find tools to perform load test on the Azure SQL DB. 
 1.	Click on the Resource groups icon in the Menu navigation bar. 
   
@@ -135,8 +136,8 @@ c.	Password – Enter the password copied from -email
 15.	You can also set these optional settings: 
 a.	Friendly name 
 16.	Click Save. To start the connection, just double-click it. This should open remote session. Please accept certificate warning as required during the connectivity.  
- 
-Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s 
+<a name="Exercise2.2"></a> 
+### Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s ###
 Exercise Overview 
  In this lab, you will add Azure SQL database as data source via Power BI desktop client. 
 1.	Login with Jump VM via remote desktop. See Exercise 4 for more information. You do not need to do this if you’ve Power BI Desktop client available on your laptop. 
@@ -372,14 +373,16 @@ You have to do it for all the relationships in previous step.
  
  
  
- 
-Module 3: Exploring Azure SQL Database Capabilities  
- 
-Lab Overview 
+<a name="Module3"></a> 
+## Module 3: Exploring Azure SQL Database Capabilities ##
+<a name="Lab-Overview3"></a> 
+### Lab Overview ###
 This lab will take you through database overview and monitoring of database. 
-Prerequisites 
+<a name="Prerequisites3"></a>
+### Prerequisites ###
 • Windows or a Mac machine with HTML5 supported browser such as Microsoft Edge, Internet Explorer, Chrome or Firefox 
-Exercise 1: Azure SQL Database Overview 
+<a name="Exercise3.1"></a>
+### Exercise 1: Azure SQL Database Overview 
 1.	Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 
 2.	To toggle show/hide the Portal menu options with icon, Click on the Show Menu button. 
  
@@ -399,7 +402,8 @@ Exercise 1: Azure SQL Database Overview
  
  
 8.	In overview blade, you can also see the DTU Utilized %age, which shows the current utilization % for the SQL DB. You’ll see that it’s almost 0% most of the time. 
-Exercise 2: Database Monitoring 
+<a name="Exercise3.2"></a>
+### Exercise 2: Database Monitoring ###
 1.	In the Database blade, click on Performance overview under Support + Troubleshooting. 
  
  
@@ -430,8 +434,8 @@ Exercise 2: Database Monitoring
 11.	Under Custom section, you can custom the view of the graph by providing different values for the Metric type, Time period, Number of queries and Aggregation type. 
  
  
-   
-Exercise 3: Connect to azure SQL database via T-SQL in azure portal 
+<a name="Exercise3.3"></a>   
+### Exercise 3: Connect to azure SQL database via T-SQL in azure portal ###
  
 In this exercise, you will connect to Database via T-SQL in azure portal and execute T-SQL queries fetching some data. 
 1.	Launch a browser and Navigate to https://portal.Azure .com. Login with your Microsoft Azure credentials. 
@@ -457,8 +461,8 @@ SELECT TOP 10 * FROM Sales.Customer
 10.	Similar you can use this query editor to interact with Azure SQL database using T-SQL. 
  
  
- 
-Exercise 4: Creating Geo-Replication 
+<a name="Exercise3.4"></a> 
+### Exercise 4: Creating Geo-Replication ###
 Exercise Overview 
  In this lab, you will create a geo replication. Geo replication enables replicating your database to a different azure region.  
 1. Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 2. Navigate to resource group>overview>AdventureWorksDB1 
@@ -487,8 +491,8 @@ Login and Password: Credentials for new server
 10.	It will take few minutes for the databases to get in sync. 
  
 11.	See this for more information about how you can failover etc. 
- 
-Exercise 5: Azure AD Authentication 
+<a name="Exercise1.1"></a> 
+### Exercise 5: Azure AD Authentication ###
 Exercise Overview 
  In this lab, you will enable Azure AD Authentication for SQL DB and connect to the db using automatic Azure AD Authentication. 
 1.	Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 
@@ -516,8 +520,8 @@ Exercise Overview
  
 11.	Now, you can see the user is automatically logged in using Azure AD authentication, there wouldn’t be any need for SQL Authentication. 
              
- 
-Exercise 6. Enabling Auditing and Threat Detection 
+<a name="Exercise3.6"></a> 
+### Exercise 6. Enabling Auditing and Threat Detection ###
 Exercise Overview 
  In this lab, you will enable Auditing and thread detection which secures your database. 
  
