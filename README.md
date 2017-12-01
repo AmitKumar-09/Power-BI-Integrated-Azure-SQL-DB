@@ -2,7 +2,7 @@
 # Power BI Integrated & Azure SQL DB #
 ---
 [//]: # (This is a comment.)
-[//]: # ([text(#text) when text is defined with this syntax it will go where this tag is degined <a name="text"></a> this is used togo) [//]: # (on text page included in name)
+[//]: # ( <a name="text"></a> this text is defined somewhere in document with reference link when click on that referece here) 
 [//]: # (Single # is userd for the largest heading)
 [//]: # (Three dashed are used for horrizontal line)
 
