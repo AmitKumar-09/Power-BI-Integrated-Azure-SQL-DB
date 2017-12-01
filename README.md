@@ -71,7 +71,11 @@ In this exercise, you will log into the Azure Portal using your Azure credential
 <kbd>![](images/signin.jpg "Credentials")</kbd>
 
     Note : At the first login, you will have to change the password, if asked for.
+    
    > Note : At the first login, you will have to change the password, if asked for.
+   
+> Note : At the first login, you will have to change the password, if asked for.
+
 2.	Enter a new password. Then select Update password and sign in. 
   
 3.	Now, you will be directed to the Azure Dashboard 
