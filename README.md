@@ -1,12 +1,14 @@
 <a name="Power-BI-&-Azure-SQL-DB"></a>
 # Power BI Integrated & Azure SQL DB #
----
+
 [//]: # (This is a comment.)
 [//]: # ( <a name="text"></a> this text is defined somewhere in document with reference link when click on that referece here) 
 [//]: # (Single # is userd for the largest heading)
 [//]: # (Three dashed are used for horrizontal line)
 
-## Table of Contents
+## Table of Contents ##
+-----
+
 [Module 1: Getting Started](#Module1)
 - [Lab Overview](#Lab-Overview1)
 - [Prerequisites](#Prerequisites1)
