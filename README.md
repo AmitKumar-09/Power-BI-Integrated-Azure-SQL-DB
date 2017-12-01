@@ -8,11 +8,11 @@
 
 ## Table of Contents
 [Module 1: Getting Started](#Module1)
-  - [Lab Overview](#Lab-Overview1)
-  - [Prerequisites](#Prerequisites1)
-  - [Time Estimate](#Time-Estimate)
-  - [Exercise 1: Log into your Azure Portal](#Exercise1.1)
-  - [Exercise 2: Verify Azure SQL Databases & Other resources in Portal](#Exercise1.2)
+- [Lab Overview](#Lab-Overview1)
+- [Prerequisites](#Prerequisites1)
+- [Time Estimate](#Time-Estimate)
+- [Exercise 1: Log into your Azure Portal](#Exercise1.1)
+- [Exercise 2: Verify Azure SQL Databases & Other resources in Portal](#Exercise1.2)
 
 - [Module 2: Azure SQL Data Visualization with PowerBI](#Module2)
   - [Lab Overview](#Lab-Overview2)
