@@ -66,9 +66,11 @@ This lab will take you through setting up the lab and verifying access.
 <a name="Exercise1.1"></a>
 ### Exercise 1: Log into your Azure Portal ###
 In this exercise, you will log into the Azure Portal using your Azure credentials. 
-1.	Launch a browser and Navigate to https://portal.azure.com. Provide the credentials that you received via email. Click on Sign In. 
-  
-Note : At the first login, you will have to change the password, if asked for. 
+1.	Launch a browser and Navigate to https://portal.azure.com. Provide the credentials that you received via email. Click on Sign In.
+
+<kbd>![](images/signin.jpg "Credentials")</kbd>
+
+    Note : At the first login, you will have to change the password, if asked for. 
 2.	Enter a new password. Then select Update password and sign in. 
   
 3.	Now, you will be directed to the Azure Dashboard 
