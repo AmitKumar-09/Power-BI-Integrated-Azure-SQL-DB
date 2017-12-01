@@ -7,13 +7,12 @@
 [//]: # (Three dashed are used for horrizontal line)
 
 | Table of Contents |
-| ------------------- |
+| ----------------- |
 | [Module 1: Getting Started](#Module1) |
-|  ------------------------  |
 | <ul><li> [Lab Overview](#Lab-Overview1)</li><li>[Prerequisites](#Prerequisites1)</li><li>[Time Estimate](#Time-Estimate)</li><li>[Exercise 1: Log into your Azure Portal](#Exercise1.1)</li><li>[Exercise 2: Verify Azure SQL Databases & Other resources in Portal](#Exercise1.2)</li></ul> |
 
 - [Module 2: Azure SQL Data Visualization with PowerBI](#Module2)
-  - [Lab Overview](#Lab-Owerview2)
+  - [Lab Overview](#Lab-Overview2)
   - [Exercise 1: Connect to Jump VM via RDP](#Exercise2.1)
   - [Exercise 2: Connect Power BI to AzureSQL & Prepare Dashboard’s](#Exercise2.2)
 - [Module 3: Exploring Azure SQL Database Capabilities](#Module3)
