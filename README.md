@@ -1,5 +1,5 @@
 <a name="Power-BI-&-Azure-SQL-DB"></a>
-# Power BI Integrated Azure SQL DB #
+# Power BI Integrated & Azure SQL DB #
 ---
 [//]: # (This is a comment.)
 [//]: # (<a name="text"></a> this is used to go on text page included in name)
