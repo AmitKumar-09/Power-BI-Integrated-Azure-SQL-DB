@@ -113,10 +113,10 @@ In this Lab, you will verify SQL databases and other provisioned resources in Az
 ### Lab Overview ### 
 In this lab, you will connect Power BI Desktop to Azure SQL DB and prepare dashboards for Adventure works sales and marketing team.  
 Please note Power BI Desktop is installed in Jump VM already, however you can also use your own computer which has Power BI desktop client installed to carry out labs in this module.  
-Adventure works is a Cycle company and their Sales & Marketing team is intrested in getting following analysis. 
+Adventure works is a Cycle company and their Sales & Marketing team is interested in getting following analysis. 
 -	Map view with Sales Revenue(Total Due) for each city. Sales team should be able to move over mouse cursor over map to see the total due amount for that city. 
--	Marketing team is intrested in learning about the total revenue based on marketing type i.e sales reason. 
-In this module, we will setup dashboard for these requirement. If you’ve Power BI Desktop Client available in your laptop, you can use that to carry out these exercise or you can use Power BI desktop client installed on Jump VM. 
+-	Marketing team is interested in learning about the total revenue based on marketing type i.e. sales reason. 
+- In this module, we will setup dashboard for these requirements. If you’ve Power BI Desktop Client available in your laptop, you can use that to carry out these exercises or you can use Power BI desktop client installed on Jump VM. 
  
 <a name="Exercise2.1"></a> 
 ### Exercise 1: Connect to Jump VM via RDP ###
