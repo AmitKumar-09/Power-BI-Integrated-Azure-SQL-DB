@@ -178,75 +178,82 @@ a.	Friendly name
 #### Exercise Overview ####
 In this lab, you will add Azure SQL database as data source via Power BI desktop client. 
 1.	Login with Jump VM via remote desktop. See Exercise 4 for more information. You do not need to do this if you’ve Power BI Desktop client available on your laptop. 
-2.	On Desktop, you should find Power BI Desktop icon. Double click to launch that. 
+2.	On Desktop, you should find Power BI Desktop icon. Double click to launch that.
+
+<kbd>![](images/vm.jpg "VM Desktop")</kbd>
              
-3.	After open, the Power BI desktop you will below screen. Click on the sign in to sign in with power bi account. 
+3.	After open, the Power BI desktop you will below screen. Click on the sign in to sign in with power bi account.
+
+<kbd>![](images/powerbi_desktop_signin.jpg "Power BI Desktop")</kbd>
              
 4.	In sign in window enter your Power BI id, use the azure username password received in email. 
-• After entering the Power BI id, click on the Sign in. 
+   - After entering the Power BI id, click on the Sign in. 
  
+ <kbd>![](images/pbi_signin.jpg "Power BI Desktop")</kbd>
   
  
 5.	Now you need to enter your Power BI password and then click on login as in below screen shot. 
  
-  
+  <kbd>![](images/pbi_signinbutton.jpg "Power BI Desktop")</kbd>
  
-6.	After Sign in you will see screen as the canvas. Now in the upper right corner see you Power Bi username labeled as 1. After that, click on the Get Data labeled as 2 in canvas. 
+6.	After Sign in you will see screen as the canvas. Now in the upper right corner see you Power Bi username labeled as 1. After that, click on the Get Data labeled as 2 in canvas.
+
+ <kbd>![](images/pbi_getdata1.jpg "Get Data")</kbd>
    
 7.	You are connecting to Azure SQL database so click on Azure. 
  
-  
+   <kbd>![](images/pbi_getdata_azure.jpg "Azure")</kbd>
  
 8.	Now select the Azure SQL database and then click on the connect button. 
  
-  
- 
+   <kbd>![](images/pbi_azure_sql_db.jpg "Azure SQL DB")</kbd> 
  
 9.	Now you have to enter the SQL server URL and database name. 
  
-  
- 
+   <kbd>![](images/sql_db_url.jpg "SQL DB")</kbd> 
  
 10.	We need to have SQL server url to connect, you can find it in the e-mail you received with lab details or find from Azure portal. Following steps describes where you can find this in azure portal. 
-Goto https://portal.azure.com, then inside your resource group get in SQL server. 
- 
+Goto https://portal.azure.com, then inside your resource group get in SQL server.
+
+ <kbd>![](images/sql_url_check1.jpg "SQL Server")</kbd> 
    
-11.	Go to the Properties of SQL server. 
-  
+11.	Go to the Properties of SQL server.
+
+ <kbd>![](images/psql_url_check2.jpg "SQL Server Properties")</kbd> 
  
-12.	In Properties blade make a note of server name. 
- 
+12.	In Properties blade make a note of server name.
+
+ <kbd>![](images/sql_url_check3.jpg "SQL Server Name")</kbd> 
    
 13.	Now go back to your Power BI desktop client and fill in SQL Server details as specified below 
 •	Server: As noted in last step 
 •	Database: Enter the database name i.e. “AdventureWorksDB1” 
 •	Username: Enter username you got in lab details mail. 
 •	Password: Enter password you got in lab details mail. 
-14.	Now enter the server url and database name. Then select the DirectQuery for live connection with Azure SQL server and drop down the advance tap to for navigating in hierarchy of database.  
+14.	Now enter the server url and database name. Then select the DirectQuery for live connection with Azure SQL server and drop down the advance tap to for navigating in hierarchy of database. 
  
-  
+ <kbd>![](images/pbi_sql_url_fill.jpg "Server URL")</kbd>
  
 15.	Now check the checkbox: Navigate using full hierarchy. Now click ok. 
  
-  
+ <kbd>![](images/pbi_sql_connect.jpg "Connect")</kbd>
  
 16.	Now to connect with Azure SQL you need to verify the window and SQL server credentials. So, select the radio button of Use my credentials and then click on Database to enter Azure SQL credentials.  
  
-  
+ <kbd>![](images/pbi_sql_db_credential.jpg "Credentials")</kbd>
  
 17.	Now enter the Username and Password of Azure SQL server that you received in lab detail mail after that click on the connect button. 
  
-  
+  <kbd>![](images/pbi_sql_db_cred_filled.jpg "Credentials")</kbd>
  
 18.	Now you will see the all the data coming in AdventureWorks1 database. Expand the person folder to see the tables inside it. 
  
-  
- 
+  <kbd>![](images/pbi_table_select1.jpg "Select Data")</kbd> 
  
 19.	Now, Inside the person folder select the table named as Address. 
 20.	After that expand the sales folder also. 
  
- 
+  <kbd>![](images/pbi_table_select2.jpg "Select Tables")</kbd>
    
 21.	Inside the sales folder select the following tables: 
 •	SalesOrderDetail 
