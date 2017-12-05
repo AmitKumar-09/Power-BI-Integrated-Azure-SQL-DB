@@ -304,57 +304,57 @@ You have to do it for all the relationships in previous step.
  
  <kbd>![](images/pbi_report3.jpg "Expand Report")</kbd>
  
-31.	When you move your mouse hover on the green icon in map view you can see the TotalDue by  City as canvas. 
+31.	When you move your mouse hover on the green icon in map view you can see the TotalDue by City as canvas. 
   
-  <kbd>![](images/ "")</kbd>
+  <kbd>![](images/pbi_report4.jpg "Total Due")</kbd>
   
 32.	Rename the Page 1 by right click on it and then select Rename page. Rename the page as Sales by City. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report5.jpg "Rename page 1")</kbd>
    
 33.	You can see the renamed page in below screen, now click on the + sign to add new page. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report6.jpg "Add new page")</kbd>
    
 34.	Now under SalesOrderHeader table select the TotalDue Column and under SalesReason table select Name for preparing report TotalDue by name. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report7.jpg "Total Due")</kbd>
    
 35.	You can see the report on screen, now click anywhere in black area to generate another report on same page. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report8.jpg "")</kbd>
   
 36.	Now select City under the Address table and then resize the map view report by expanding from the right lower corner. Now click in blank area as blue stamp in the below screenshot. 
   
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report9.jpg "Resize")</kbd>
  
 37.	Now click on the OrderDate under SalesOrderHeader table. Then you can see the report Orderdate labeled as 3. Now click on the Slicer icon under Visualization labeled as 4 for filtering the report on page level by order date. 
  
-   <kbd>![](images/ "")</kbd>
+   <kbd>![](images/bi_report10.png "OrderDate")</kbd>
    
-38.	You can see the report area after selecting the slicer Visualization. Rename the current page as Sales by name and city [Filtered by Date]. 
+38.	You can see the report area after selecting the slicer Visualization. Rename the current page as **Sales by name and city [Filtered  by Date].**
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report11.jpg "Slicer")</kbd>
    
 39.	Now you can see the renamed page than click on the + icon to add a new page. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report12.jpg "Sales By Name & City")</kbd>
    
-40.	Now select the ModifiedDate and SalesPersonID under SalesOrderHeader table in FIELD area blade. You can see the report labeled as 3. Now choose the Line Chart view under the visualization area to change the report in Line chart view. 
+40.	Now select the ModifiedDate and SalesPersonID under SalesOrderHeader table in FIELD area blade. You can see the report labeled as 3. Now choose the **Line Chart** view under the visualization area to change the report in Line chart view. 
   
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report13.png "Line Chart")</kbd>
  
 41.	Now resize the Line Chart report by expanding it from the lower right corner as in below canvas. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report14.jpg "Resize")</kbd>
    
-42.	Now you can see the report on the whole page after resizing the report. Rename the page SalesPersonID by ModifiedDate. 
+42.	Now you can see the report on the whole page after resizing the report. Rename the page **SalesPersonID by ModifiedDate. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report15.jpg "SalesPersonID")</kbd>
    
 43.	Now you can see the modified name of the page as SalesPersonID by ModifiedDate. Click on + icon to add a new page.  
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report16.jpg "Remaned Page")</kbd>
    
 44.	Now select the TotalDue under SalesOrderHeader table and Name under SalesReason. Now Change the view by clicking on the Pie Chart icon under visualization labeled as 4. 
  
