@@ -330,13 +330,13 @@ You have to do it for all the relationships in previous step.
  
 37.	Now click on the OrderDate under SalesOrderHeader table. Then you can see the report Orderdate labeled as 3. Now click on the Slicer icon under Visualization labeled as 4 for filtering the report on page level by order date. 
  
-   <kbd>![](images/bi_report10.png "OrderDate")</kbd>
+ <kbd>![](images/pbi_report10.png "OrderDate")</kbd>
    
 38.	You can see the report area after selecting the slicer Visualization. Rename the current page as **Sales by name and city [Filtered  by Date].**
  
  <kbd>![](images/pbi_report11.jpg "Slicer")</kbd>
    
-39.	Now you can see the renamed page than click on the + icon to add a new page. 
+39.	Now you can see the renamed page than click on the **+** icon to add a new page. 
  
  <kbd>![](images/pbi_report12.jpg "Sales By Name & City")</kbd>
    
