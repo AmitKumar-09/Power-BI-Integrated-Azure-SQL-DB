@@ -488,35 +488,49 @@ This lab will take you through database overview and monitoring of database.
 8.	In overview blade, you can also see the DTU Utilized %age, which shows the current utilization % for the SQL DB. You’ll see that it’s almost 0% most of the time. 
 <a name="Exercise3.2"></a>
 ### Exercise 2: Database Monitoring ###
-1.	In the Database blade, click on Performance overview under Support + Troubleshooting. 
+1.	In the Database blade, click on **Performance overview** under Support + Troubleshooting. 
  
+ <kbd>![](images/m3/e2/db_performance.jpg "DB Performance Overview")</kbd>
  
-2.	Under Performance overview section, you will see the performance graphs as below. This includes DTU Utilization along with CPU %, Data IO and Log IO utilization. 
+2.	Under Performance overview section, you will see the **performance graphs** as below. This includes **DTU Utilization along with CPU %, Data IO and Log IO utilization**. 
+    
+ <kbd>![](images/m3/e2/db_performance1.jpg "Performance Graphs")</kbd>  
    
-3.	The first graph shows the overall DTU usage for the selected number of queries in a chosen period. 
- 
+3.	The first graph shows the overall **DTU** usage for the selected number of queries in a chosen period. 
+  
+ <kbd>![](images/m3/e2/db_dtu.jpg "DTU")</kbd>
    
-4.	The second graph shows the database CPU usage, database IO usage and database log IO usage in a chosen time period. 
+4.	The second graph shows the CPU usage, DATA IO usage and LOG IO usage in a chosen time. 
  
+ <kbd>![](images/m3/e2/db_io.jpg "DB IO")</kbd>
    
 5.	In the Database blade, click on Query Performance Insight under Support + Troubleshooting. 
  
+ <kbd>![](images/m3/e2/db_query_performance.jpg "Query Performance")</kbd>
  
 6.	Under the Query Performance Insight, select the Resource consuming queries 
  
+ <kbd>![](images/m3/e2/db_query_performance_blade.jpg "Insight")</kbd>
+ 
 7.	Under Resource consuming queries section, you can view graph as below. This shows utilization dashboard with respect to queries consuming resources.  
  
+ <kbd>![](images/m3/e2/resource_consuming_queries.jpg "")</kbd>
    
 8.	Under the Query Performance Insight, select the Long running queries 
  
+ <kbd>![](images/m3/e2/long_running_queries.jpg "Queries")</kbd>
+ 
 9.	Under Long running queries section, you can view graph as below for queries running for longer duration. 
  
-  
+ <kbd>![](images/m3/e2/long_running_queries1.jpg "Long running queries")</kbd> 
  
 10.	Under the Query Performance Insight, select Custom. 
  
+ <kbd>![](images/m3/e2/custom.jpg "Custom")</kbd>
+ 
 11.	Under Custom section, you can custom the view of the graph by providing different values for the Metric type, Time period, Number of queries and Aggregation type. 
  
+ <kbd>![](images/m3/e2/custom_blade.jpg "Custom section")</kbd>
  
 <a name="Exercise3.3"></a>   
 ### Exercise 3: Connect to azure SQL database via T-SQL in azure portal ###
