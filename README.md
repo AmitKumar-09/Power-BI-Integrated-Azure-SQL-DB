@@ -260,17 +260,21 @@ Goto https://portal.azure.com, then inside your resource group get in SQL server
 •	SalesOrderHeader 
 •	SalesOrderheaderSalesReason 
 •	SalesReason 
-Now, click on the Load to load the selected tables. 
+Now, click on the Load to load the selected tables.  
+ 
+  <kbd>![](images/pbi_table_select3.jpg "Load Tables")</kbd>
   
+22.	You will see the selected tables loaded and we can see the tables under FIELDS blade, now click on the relationship icon marked in left side below the paste icon.
  
-22.	You will see the selected tables loaded and we can see the tables under FIELDS blade, now click on the relationship icon marked in left side below the paste icon.  
- 
+  <kbd>![](images/pbi_table_relationship_icon.png "Click on Relation Tab")</kbd>
   
 23.	You can manage the relationships between tables data by Manage Relationships function under Home tab of menu bar. So, click on Manage Relationships 
  
+ <kbd>![](images/pbi_table_relationship_blade.png "Manage RelationShip of tables")</kbd>
    
 24.	Now, select relationships one by one and edit these relations by edit button. 
  
+  <kbd>![](images/pbi_manage_relationship.jpg "Edit Relationship")</kbd>
   
 25.	Now you must ensure that following properties as: 
 •	Make the relationship active 
@@ -278,142 +282,167 @@ Now, click on the Load to load the selected tables.
 Then click on OK button. 
 You have to do it for all the relationships in previous step. 
  
+ <kbd>![](images/pbi_edit_relationship.jpg "Edit Relationship")</kbd>
    
 26.	After editing all the relationships click on Report icon below the paste icon as in below canvas. 
  
+ <kbd>![](images/pbi_report_icon.jpg "Goto Report View")</kbd>
    
 27.	Now in report blade under FIELDS area select Address table to choose columns for creating report. 
  
+ <kbd>![](images/pbi_table_address1.jpg "Address Table")</kbd>
    
 28.	Now, select the City Column and after that, expand the SalesOrderHeader table. 
  
+ <kbd>![](images/pbi_report1.jpg "City Column")</kbd>
  
 29.	Now select the TotalDue column. 
  
- 
+ <kbd>![](images/pbi_report2.jpg "Total Due")</kbd>
  
 30.	You can see the report blade in the left side under white background area. You can resize the report as select, drag and drop the right below corner of report blade. 
  
+ <kbd>![](images/pbi_report3.jpg "Expand Report")</kbd>
  
 31.	When you move your mouse hover on the green icon in map view you can see the TotalDue by  City as canvas. 
   
+  <kbd>![](images/ "")</kbd>
+  
 32.	Rename the Page 1 by right click on it and then select Rename page. Rename the page as Sales by City. 
  
+ <kbd>![](images/ "")</kbd>
    
 33.	You can see the renamed page in below screen, now click on the + sign to add new page. 
  
+ <kbd>![](images/ "")</kbd>
    
 34.	Now under SalesOrderHeader table select the TotalDue Column and under SalesReason table select Name for preparing report TotalDue by name. 
  
+ <kbd>![](images/ "")</kbd>
    
 35.	You can see the report on screen, now click anywhere in black area to generate another report on same page. 
  
+ <kbd>![](images/ "")</kbd>
   
 36.	Now select City under the Address table and then resize the map view report by expanding from the right lower corner. Now click in blank area as blue stamp in the below screenshot. 
   
- 
+ <kbd>![](images/ "")</kbd>
  
 37.	Now click on the OrderDate under SalesOrderHeader table. Then you can see the report Orderdate labeled as 3. Now click on the Slicer icon under Visualization labeled as 4 for filtering the report on page level by order date. 
  
+   <kbd>![](images/ "")</kbd>
    
 38.	You can see the report area after selecting the slicer Visualization. Rename the current page as Sales by name and city [Filtered by Date]. 
  
+ <kbd>![](images/ "")</kbd>
    
 39.	Now you can see the renamed page than click on the + icon to add a new page. 
  
+ <kbd>![](images/ "")</kbd>
    
 40.	Now select the ModifiedDate and SalesPersonID under SalesOrderHeader table in FIELD area blade. You can see the report labeled as 3. Now choose the Line Chart view under the visualization area to change the report in Line chart view. 
   
- 
+ <kbd>![](images/ "")</kbd>
  
 41.	Now resize the Line Chart report by expanding it from the lower right corner as in below canvas. 
  
+ <kbd>![](images/ "")</kbd>
    
 42.	Now you can see the report on the whole page after resizing the report. Rename the page SalesPersonID by ModifiedDate. 
  
+ <kbd>![](images/ "")</kbd>
    
 43.	Now you can see the modified name of the page as SalesPersonID by ModifiedDate. Click on + icon to add a new page.  
  
+ <kbd>![](images/ "")</kbd>
    
 44.	Now select the TotalDue under SalesOrderHeader table and Name under SalesReason. Now Change the view by clicking on the Pie Chart icon under visualization labeled as 4. 
  
+ <kbd>![](images/ "")</kbd>
    
 45.	You can see the pie chart report of TotalDue by Name. Rename the page as PieChart [TotalDue by Name] and add a new page by clicking the + icon. 
  
+ <kbd>![](images/ "")</kbd>
   
 46.	Now Select the TotalDue and ReasonType and click on Funnel icon under the visualization.  
  
+ <kbd>![](images/ "")</kbd>
    
 47.	This is the Funnel view of report. on mouse hovering on the funnels you can see the TotalDue by ReasonType. Rename the page as TotalDue by Reason and then publish the report to the Power BI online by clicking on the Publish button in upper right corner. 
  
+ <kbd>![](images/ "")</kbd>
    
 48.	When you click on the Publish Report it will ask you to save the report then click on the save button. 
  
-  
+  <kbd>![](images/ "")</kbd>
  
 49.	Give File Name as AdventureWorksDB1 and save the report. 
  
+ <kbd>![](images/ "")</kbd>
    
 50.	Now you see a window pop up’s Published succeeded, Click on the Open ‘AdventureWorksDB1.pbix’ in Power BI. 
  
-  
+  <kbd>![](images/ "")</kbd>
  
 51.	Now you need to SIGN IN to Power BI online. 
  
-  
- 
+  <kbd>![](images/ "")</kbd> 
  
 52.	SIGN IN with same ID as you Signed IN in Power BI desktop. After entering your id click on Next button. 
  
-  
+  <kbd>![](images/ "")</kbd>
  
 53.	Enter your password and click on Sign In. 
  
-  
- 
+  <kbd>![](images/ "")</kbd>
  
 54.	You need to enter the credentials of Azure SQL Data to connect with data source for live connection. Click on the Enter Credentials. 
   
- 
+ <kbd>![](images/ "")</kbd>
  
 55.	After clicking on edit credentials you will redirected to the below screen. Then ensure you are under Datasets tab and AdventureWorksDB1 is selected. Then click on the Edit Credentials. 
  
+ <kbd>![](images/ "")</kbd>
    
 56.	Enter Azure SQL server Credential you received by lab invitation mail. After entering the User Name and the Password click on the Sign IN button. 
   
- 
+ <kbd>![](images/ "")</kbd>
  
 57.	You will see the following notification after Sign In: SqlServer Data Source updated. 
  
-  
- 
+  <kbd>![](images/ "")</kbd> 
  
 58.	Now click on the drop down icon of My Workspace in left side of your system screen. 
  
+   <kbd>![](images/ "")</kbd>
    
 59.	Now click on the AdventureWorksDB1 under Reports to see you published report from the Power BI Desktop. 
  
+   <kbd>![](images/ "")</kbd>
    
 60.	You can see the all reports you published now Click on Sales by City Report. 
  
-  
- 
+  <kbd>![](images/ "")</kbd> 
  
 61.	Now click on the Pin icon to pin the report on Dashboard.  
  
+ <kbd>![](images/ "")</kbd>
    
-62.	As you don’t have any existing dashboard so click on the New dashboard radio button. Name the dashboard as Dashboard [AdvantureWorks] then click on the PIN button. 
+62.	As you don’t have any existing dashboard so click on the New dashboard radio button. Name the dashboard as Dashboard [AdvantureWorks] then click on the PIN button.
+
+<kbd>![](images/ "")</kbd>
    
 63.	Now Click on Dashboard [AdvantureWorks] under Dashboard Tab. Similarly, you can pin more report on you dashboard.  
  
-  
- 
+  <kbd>![](images/ "")</kbd> 
  
 64.	Look on below dashboard contains more the one report as I also pinned another report to the dashboard. 
    
+   <kbd>![](images/ "")</kbd>
+   
 65.	You can prepare report from here also by from your DATASETS AdventureWorksDB1. 
  
-  
+  <kbd>![](images/ "")</kbd>
  
  
  
