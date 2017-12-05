@@ -539,20 +539,33 @@ In this exercise, you will connect to Database via T-SQL in azure portal and exe
 1.	Launch a browser and Navigate to https://portal.Azure .com. Login with your Microsoft Azure credentials. 
 2.	Navigate to database AdventureWorkssDB1. 
  
+ <kbd>![](images/m3/e3/db_navigation.jpg "DB Navigation in Portal")</kbd>
  
 3.	In the db1 blade that appears, click “tools” tab at the top. 
  
+ <kbd>![](images/m3/e3/tools.jpg "DB Tools")</kbd>
+ 
 4.	Now, choose Query Editor (preview) option in "Tools" menu. 
  
+ <kbd>![](images/m3/e3/query_editor.jpg "Query Editor")</kbd>
+ 
 5.	Before getting SQL Query Editor, we need to accept the preview terms, then we will get SQL Query Editor. 
-              
+  
+ <kbd>![](images/m3/e3/query_editor_preview.jpg "Query Editor Preview)")</kbd>
+  
 6.	Before executing queries against our database, select SQL server authentication for Authorization type and login with SQL Server credentials provided in the mail.  
-             
+      
+ <kbd>![](images/m3/e3/query_editor_login.jpg "Login")</kbd>
+      
 7.	Now you can see user is successfully logged in. 
-             
+    
+ <kbd>![](images/m3/e3/query_editor_authenticated.jpg "Authenticated")</kbd>   
+    
 8.	Now, you can run many common queries in this editor, such as create new database, table, display table data, edit table data, create a stored procedure, or drop table. For example, let’s try executing query for getting all the table in the database. Execute following query for this. 
  
-SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'          
+   SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'          
+ 
+ <kbd>![](images/m3/e3/run_query.jpg "Run")</kbd>
  
 9.	Now Let’s look at the Top 10 records for Sales.Customers table. Execute following query 
 SELECT TOP 10 * FROM Sales.Customer 
