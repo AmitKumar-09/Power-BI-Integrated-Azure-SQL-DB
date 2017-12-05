@@ -352,97 +352,97 @@ You have to do it for all the relationships in previous step.
  
  <kbd>![](images/pbi_report15.jpg "SalesPersonID")</kbd>
    
-43.	Now you can see the modified name of the page as SalesPersonID by ModifiedDate. Click on + icon to add a new page.  
+43.	Now you can see the modified name of the page as **SalesPersonID by ModifiedDate**. Click on + icon to add a new page.  
  
  <kbd>![](images/pbi_report16.jpg "Remaned Page")</kbd>
    
-44.	Now select the TotalDue under SalesOrderHeader table and Name under SalesReason. Now Change the view by clicking on the Pie Chart icon under visualization labeled as 4. 
+44.	Now select the **TotalDue** under SalesOrderHeader table and **Name** under SalesReason. Now Change the view by clicking on the **Pie Chart** icon under visualization labeled as 4. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report17.jpg "Pie Chart")</kbd>
    
-45.	You can see the pie chart report of TotalDue by Name. Rename the page as PieChart [TotalDue by Name] and add a new page by clicking the + icon. 
+45.	You can see the pie chart report of **TotalDue** by Name. Rename the page as **PieChart [TotalDue by Name]** and add a new page by clicking the **+** icon. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report18.png "Pie Chart")</kbd>
   
-46.	Now Select the TotalDue and ReasonType and click on Funnel icon under the visualization.  
+46.	Now Select the **TotalDue** and **ReasonType** and click on **Funnel** icon under the visualization.  
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report19.jpg "Funnel")</kbd>
    
-47.	This is the Funnel view of report. on mouse hovering on the funnels you can see the TotalDue by ReasonType. Rename the page as TotalDue by Reason and then publish the report to the Power BI online by clicking on the Publish button in upper right corner. 
+47.	This is the **Funnel view** of report. on mouse hovering on the funnels you can see the TotalDue by ReasonType. Rename the page as **TotalDue by Reason** and then **publish** the report to the Power BI online by clicking on the **Publish** button in upper right corner. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report20.jpg "Funnel View")</kbd>
    
-48.	When you click on the Publish Report it will ask you to save the report then click on the save button. 
+48.	When you click on the **Publish Report** it will ask you to save the report then click on the **save** button. 
  
-  <kbd>![](images/ "")</kbd>
+  <kbd>![](images/pbi_report21.jpg "Save")</kbd>
  
-49.	Give File Name as AdventureWorksDB1 and save the report. 
+49.	Give File Name as **AdventureWorksDB1** and **save** the report. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_report22.jpg "Save as")</kbd>
    
-50.	Now you see a window pop up’s Published succeeded, Click on the Open ‘AdventureWorksDB1.pbix’ in Power BI. 
+50.	Now you see a window pop up’s Published **succeeded**, Click on the **Open ‘AdventureWorksDB1.pbix’** in Power BI. 
  
-  <kbd>![](images/ "")</kbd>
+  <kbd>![](images/pbi_report23.jpg "Open in PowerBI Online")</kbd>
  
-51.	Now you need to SIGN IN to Power BI online. 
+51.	Now you need to **SIGN IN** to Power BI online. 
  
-  <kbd>![](images/ "")</kbd> 
+  <kbd>![](images/pbi_report24.jpg "Signin")</kbd> 
  
-52.	SIGN IN with same ID as you Signed IN in Power BI desktop. After entering your id click on Next button. 
+52.	**SIGN IN** with **same ID** as you Signed IN in Power BI desktop. After entering your id click on **Next** button. 
  
-  <kbd>![](images/ "")</kbd>
+  <kbd>![](images/pbi-web1.png "username")</kbd>
  
-53.	Enter your password and click on Sign In. 
+53.	Enter your **password** and click on **Sign In**. 
  
-  <kbd>![](images/ "")</kbd>
+  <kbd>![](images/pbi_web2.jpg "Password")</kbd>
  
-54.	You need to enter the credentials of Azure SQL Data to connect with data source for live connection. Click on the Enter Credentials. 
+54.	You need to enter the **credentials** of **Azure SQL Data** to connect with data source for live connection. Click on the **Enter Credentials**. 
   
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_web3.jpg "Edit Credential")</kbd>
  
-55.	After clicking on edit credentials you will redirected to the below screen. Then ensure you are under Datasets tab and AdventureWorksDB1 is selected. Then click on the Edit Credentials. 
+55.	After clicking on edit credentials you will redirected to the below screen. Then ensure you are under Datasets tab AdventureWorksDB1 is selected. Then click on the **Edit Credentials**. 
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_web4.jpg "Datasets")</kbd>
    
-56.	Enter Azure SQL server Credential you received by lab invitation mail. After entering the User Name and the Password click on the Sign IN button. 
+56.	Enter Azure SQL server **Credential** you received by lab invitation mail. After entering the **username** and the **Password** click on the **Sign IN** button. 
   
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_web5.jpg "Sign in")</kbd>
  
-57.	You will see the following notification after Sign In: SqlServer Data Source updated. 
+57.	You will see the following notification after Sign In: **SqlServer Data Source updated**. 
  
-  <kbd>![](images/ "")</kbd> 
+  <kbd>![](images/pbi_web6.jpg "")</kbd> 
  
-58.	Now click on the drop down icon of My Workspace in left side of your system screen. 
+58.	Now click on the drop down icon of **My Workspace** in left side of your screen. 
  
-   <kbd>![](images/ "")</kbd>
+   <kbd>![](images/pbi_web7.jpg "My workspace")</kbd>
    
-59.	Now click on the AdventureWorksDB1 under Reports to see you published report from the Power BI Desktop. 
+59.	Now click on the **AdventureWorksDB1** under Reports to see you published report from the Power BI Desktop. 
  
-   <kbd>![](images/ "")</kbd>
+   <kbd>![](images/pbi_web8.jpg "AdventureWorksDB1")</kbd>
    
-60.	You can see the all reports you published now Click on Sales by City Report. 
+60.	You can see the all reports you published now Click on **Sales by City Report**. 
  
-  <kbd>![](images/ "")</kbd> 
+  <kbd>![](images/pbi_web9.png "Reports")</kbd> 
  
-61.	Now click on the Pin icon to pin the report on Dashboard.  
+61.	Now click on the **Pin icon** to pin the report on Dashboard.  
  
- <kbd>![](images/ "")</kbd>
+ <kbd>![](images/pbi_web10.jpg "Pin")</kbd>
    
-62.	As you don’t have any existing dashboard so click on the New dashboard radio button. Name the dashboard as Dashboard [AdvantureWorks] then click on the PIN button.
+62.	As you don’t have any existing dashboard so click on the **New dashboard** radio button. Name the dashboard as **Dashboard [AdvantureWorks]** then click on the **PIN**.
 
-<kbd>![](images/ "")</kbd>
+<kbd>![](images/pbi_web11.jpg "Pin")</kbd>
    
-63.	Now Click on Dashboard [AdvantureWorks] under Dashboard Tab. Similarly, you can pin more report on you dashboard.  
+63.	Now Click on **Dashboard [AdvantureWorks]** under Dashboard Tab. Similarly, you can pin more report on your dashboard.  
  
-  <kbd>![](images/ "")</kbd> 
+  <kbd>![](images/pbi_web12.jpg "")</kbd> 
  
 64.	Look on below dashboard contains more the one report as I also pinned another report to the dashboard. 
    
-   <kbd>![](images/ "")</kbd>
+   <kbd>![](images/pbi_web13.jpg "Dashboard")</kbd>
    
-65.	You can prepare report from here also by from your DATASETS AdventureWorksDB1. 
+65.	You can prepare report from here also by from your **DATASETS** AdventureWorksDB1. 
  
-  <kbd>![](images/ "")</kbd>
+  <kbd>![](images/pbi_web14.jpg "Datasets")</kbd>
  
  
  
