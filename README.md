@@ -459,20 +459,31 @@ This lab will take you through database overview and monitoring of database.
 1.	Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 
 2.	To toggle show/hide the Portal menu options with icon, Click on the Show Menu button. 
  
+ <kbd>![](images/m3/e1/ddashboard_menu.jpg "Portal Menu")</kbd> 
         
 3.	Click on the Resource groups icon in the Menu navigation bar. 
  
-  
-4.	Click on the resource group in the Resource group blade 
+ <kbd>![](images/m3/e1/dmenu_rg.jpg "Menu RG")</kbd> 
+ 
+4.	Select the resource group in the Resource group blade.
+
+<kbd>![](images/m3/e1/dselect_rg.jpg "Select RG")</kbd> 
   
 17. In the blade that appears, click on Overview. 
+
+<kbd>![](images/m3/e1/drg_overview.jpg "Overview")</kbd> 
   
 5.	Under the overview section, click AdventureWorksDB1. 
+
+<kbd>![](images/m3/e1/dadventure_works_db.jpg "Adventure Works DB")</kbd> 
  
-6.	In the Database blade that appears, click on Overview. 
+6.	In the Database blade that appears, click on Overview.
+
+<kbd>![](images/m3/e1/ddb_overview.jpg "DB Overview")</kbd>
  
-7.	Under the overview section of the database, you can view the resource group, subscription and location where it is deployed and also other details of database as shown below. 
- 
+7.	Under the overview section of the database, you can view the resource group, subscription and location where it is deployed and also other details of database as shown below.
+
+<kbd>![](images/m3/e1/db_details.jpg "DB Details")</kbd> 
  
 8.	In overview blade, you can also see the DTU Utilized %age, which shows the current utilization % for the SQL DB. You’ll see that it’s almost 0% most of the time. 
 <a name="Exercise3.2"></a>
