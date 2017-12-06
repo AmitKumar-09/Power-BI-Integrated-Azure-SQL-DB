@@ -578,10 +578,15 @@ Exercise Overview
  In this lab, you will create a geo replication. Geo replication enables replicating your database to a different azure region.  
 1. Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 2. Navigate to resource group>overview>AdventureWorksDB1 
  
+  <kbd>![](images/m3/e4/adventureworksdb1.jpg "AdventureWorks DB")</kbd>
  
 3.	In the AdventureworksDB1 blade that appears, click on Geo-Replication under settings. 
  
+ <kbd>![](images/m3/e4/select_geo_replication.jpg "Geo Replication")</kbd>
+ 
 4.	Now for geo replication, you first need to decide which region you would like to use for the secondary. Portal shows the paired Azure region as recommended on top. 
+ 
+ <kbd>![](images/m3/e4/aw_db_geo_replication.jpg "Geo Replication")</kbd>
  
 5.	Choose the region you’d want to setup replication too. Please make sure to choose only US regions for this lab purpose. 
 6.	This will open create secondary blade. Verify the Region is same as selected and click on target server. 
@@ -589,17 +594,21 @@ Exercise Overview
 Server name: Your unique SQL server name for different region. This must be unique across Azure. 
 Login and Password: Credentials for new server 
  
+  <kbd>![](images/m3/e4/geo_replication_westus2.jpg "Geo Replication")</kbd>
   
- 
+  <kbd>![](images/m3/e4/target_server.jpg "Target Server")</kbd> 
  
 8.	Verify all settings as specified below. 
  
+ <kbd>![](images/m3/e4/create_secondary.jpg "Create Secondary")</kbd>
  
 9.	Now, you can see the replication in progress. 
      
+ <kbd>![](images/m3/e4/geo_replication_map.jpg "Map")</kbd>
  
- 
-10.	It will take few minutes for the databases to get in sync. 
+10.	It will take few minutes for the databases to get in sync.
+
+<kbd>![](images/m3/e4/data_synced.jpg "Data Synced")</kbd>
  
 11.	See this for more information about how you can failover etc. 
 <a name="Exercise3.5"></a> 
@@ -609,27 +618,39 @@ Exercise Overview
 1.	Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 
 2.	Navigate to resource group>overview and select the SQL Server (NOT one of the SQL databases). 
  
+ <kbd>![](images/m3/e5/sql_server.jpg "SQL server")</kbd>
  
 3.	Navigate to Active Directory admin for the SQL server, Click on Set admin. 
  
+ <kbd>![](images/m3/e5/active_directory_admin.jpg "Active Directory admin")</kbd>
  
 4.	Search for your own Azure AD Account (This is your azure login username for the lab) 
-             
+   
+  <kbd>![](images/m3/e5/add_admin.jpg "")</kbd>
  
 5.	Now, new blade that appears, click on Save. 
  
+  <kbd>![](images/m3/e5/save.jpg "save")</kbd>
  
 6.	Now, you can see the admin is successfully saved. 
  
+  <kbd>![](images/m3/e5/saved_admin.jpg "Successfully Saved")</kbd>
  
 7.	Now go into database AdventureWorksDB1. 
  
+  <kbd>![](images/m3/e5/adventureworksdb1.jpg "AdventureWorksDB1")</kbd>
+ 
 8.	In the overview blade, click “tools” tab. 
-9.            
+  
+ <kbd>![](images/m3/e5/db_tools.jpg "DB Tools")</kbd>
  
 10.	Now, choose Query Editor (preview) option in "Tools" menu. 
+
+ <kbd>![](images/m3/e5/tools_query_editor.jpg "Query Editor")</kbd>
  
-11.	Now, you can see the user is automatically logged in using Azure AD authentication, there wouldn’t be any need for SQL Authentication. 
+11.	Now, you can see the user is automatically logged in using Azure AD authentication, there wouldn’t be any need for SQL Authentication.
+
+ <kbd>![](images/m3/e5/query_editor.jpg "Query Editor")</kbd>
              
 <a name="Exercise3.6"></a> 
 ### Exercise 6. Enabling Auditing and Threat Detection ###
@@ -639,34 +660,47 @@ Exercise Overview
 1.	Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 
 2.	To toggle show/hide the Portal menu options with icon, Click on the Show Menu button. 
  
+ <kbd>![](images/m3/e5/ "")</kbd>
         
 3.	Click on the Resource groups icon in the Menu navigation bar. 
  
+<kbd>![](images/m3/e5/ "")</kbd>
+
+4.	Click on the resource group in the Resource group blade.
+
+<kbd>![](images/m3/e5/ "")</kbd>
   
-4.	Click on the resource group in the Resource group blade 
+5.	In the blade that appears, click on Overview.
+
+<kbd>![](images/m3/e5/ "")</kbd>
   
-5.	In the blade that appears, click on Overview. 
-  
-6.	Under the overview section, click on AdventureWorksDB1. 
+6.	Under the overview section, click on AdventureWorksDB1.
+
+<kbd>![](images/m3/e5/ "")</kbd>
  
 7.	In the Database blade that appears, click on Auditing &Threat Detection under the settings. 
  
+ <kbd>![](images/m3/e5/ "")</kbd>
  
 8.	Under the Auditing and Threat Detection section of the database, switch Auditing to On. Once auditing is on, Threat Detection also will become active. Now switch Threat Detection to On to enable threat detection. 
  
+ <kbd>![](images/m3/e5/ "")</kbd>
  
-9.	Click on Storage details. 
- 
+9.	Click on Storage details.
+
+<kbd>![](images/m3/e5/ "")</kbd> 
    
-10.	In the Audit logs storage blade that appears, click on Storage account and choose the storage account available. Set the Retention days as per your needs and click on OK. 
- 
+10.	In the Audit logs storage blade that appears, click on Storage account and choose the storage account available. Set the Retention days as per your needs and click on OK.
+
+<kbd>![](images/m3/e5/ "")</kbd> 
    
 11.	Back in the Audit & Threat Detection,enter the email address in the Send alerts to box and click on Save at the top of the blade. 
  
-  
+ <kbd>![](images/m3/e5/ "")</kbd>
  
 12.	Click on OK in the message that pops up. 
  
+ <kbd>![](images/m3/e5/ "")</kbd>
   
 13.	Now you can Click on View audit logs. This will show all login/other activities performed by users along with user details. 
  
