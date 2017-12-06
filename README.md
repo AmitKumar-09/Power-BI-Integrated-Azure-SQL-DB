@@ -660,47 +660,47 @@ Exercise Overview
 1.	Launch a browser and navigate to Azure portal. Login with your Microsoft Azure credentials. 
 2.	To toggle show/hide the Portal menu options with icon, Click on the Show Menu button. 
  
- <kbd>![](images/m3/e5/ "")</kbd>
+ <kbd>![](images/m3/e6/show_menu.jpg "Show Menu")</kbd>
         
 3.	Click on the Resource groups icon in the Menu navigation bar. 
  
-<kbd>![](images/m3/e5/ "")</kbd>
+<kbd>![](images/m3/e6/menu_rg.jpg "Resource groups")</kbd>
 
 4.	Click on the resource group in the Resource group blade.
 
-<kbd>![](images/m3/e5/ "")</kbd>
+<kbd>![](images/m3/e6/select_rg.jpg "esource group")</kbd>
   
 5.	In the blade that appears, click on Overview.
 
-<kbd>![](images/m3/e5/ "")</kbd>
+<kbd>![](images/m3/e6/rg_overview.jpg "Overview")</kbd>
   
 6.	Under the overview section, click on AdventureWorksDB1.
 
-<kbd>![](images/m3/e5/ "")</kbd>
+<kbd>![](images/m3/e6/adventureworksdb1.jpg "dventureWorksDB1")</kbd>
  
-7.	In the Database blade that appears, click on Auditing &Threat Detection under the settings. 
+7.	In the Database blade that appears, click on Auditing & Threat Detection under the settings. 
  
- <kbd>![](images/m3/e5/ "")</kbd>
+ <kbd>![](images/m3/e6/db_auditing_and_threat_detection.jpg "Auditing & Threat Detection")</kbd>
  
 8.	Under the Auditing and Threat Detection section of the database, switch Auditing to On. Once auditing is on, Threat Detection also will become active. Now switch Threat Detection to On to enable threat detection. 
  
- <kbd>![](images/m3/e5/ "")</kbd>
+ <kbd>![](images/m3/e6/auditing_on.jpg "switch")</kbd>
  
 9.	Click on Storage details.
 
-<kbd>![](images/m3/e5/ "")</kbd> 
+<kbd>![](images/m3/e6/storage_details.jpg "Storage details")</kbd> 
    
 10.	In the Audit logs storage blade that appears, click on Storage account and choose the storage account available. Set the Retention days as per your needs and click on OK.
 
-<kbd>![](images/m3/e5/ "")</kbd> 
+<kbd>![](images/m3/e6/audit_logs_storage.jpg "Storage account")</kbd> 
    
 11.	Back in the Audit & Threat Detection,enter the email address in the Send alerts to box and click on Save at the top of the blade. 
  
- <kbd>![](images/m3/e5/ "")</kbd>
+ <kbd>![](images/m3/e6/save_send_alert_to.jpg "Save")</kbd>
  
 12.	Click on OK in the message that pops up. 
  
- <kbd>![](images/m3/e5/ "")</kbd>
+ <kbd>![](images/m3/e6/save_ok.jpg "OK")</kbd>
   
 13.	Now you can Click on View audit logs. This will show all login/other activities performed by users along with user details. 
  
