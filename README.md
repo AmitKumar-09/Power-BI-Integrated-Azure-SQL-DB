@@ -703,6 +703,8 @@ Exercise Overview
  <kbd>![](images/m3/e6/save_ok.jpg "OK")</kbd>
   
 13.	Now you can Click on View audit logs. This will show all login/other activities performed by users along with user details. 
+
+.
  
  
  
