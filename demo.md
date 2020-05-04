@@ -33,7 +33,7 @@ You may force a line break with two spaces
 or with a `\`\
 at the end of the line
 
-<kbd>![](demo/basic_styles.png)</kbd>
+
 
 
 Links
